@@ -1,5 +1,5 @@
 # IBM Stock Price Prediction (Time Series Forecasting)
-This project focuses on time series forecasting for predicting IBM stock prices using machine learning models. The dataset includes historical stock prices up to December 2023. Accurate predictions can assist investors, financial analysts, and traders in making informed decisions, optimizing trading strategies, and managing risks. Additionally, this project serves as a practical application of machine learning in finance, demonstrating the effectiveness of different predictive models while providing insights into stock market behavior.
+This project focuses on time series forecasting for predicting IBM stock prices using machine learning models. The dataset includes historical stock prices up to August 2022. Accurate predictions can assist investors, financial analysts, and traders in making informed decisions, optimizing trading strategies, and managing risks. Additionally, this project serves as a practical application of machine learning in finance, demonstrating the effectiveness of different predictive models while providing insights into stock market behavior.
 
 ## Dataset Overview
 - **Source**: IBM
@@ -58,7 +58,7 @@ Ensure you have the following installed:
 
 ## Results
 - For this specific dataset and task, the **XGBoost Regressor** is the most effective model. Suggests it captures the underlying patterns in the data most accurately.
-- XGBoost Regressor model achieving a 97% R-squared score on IBM stock price prediction (up to December 2023) without overfitting, and the plot of actual vs predicted values shows a very close alignment.
+- XGBoost Regressor model achieving a 97% R-squared score on IBM stock price prediction (up to August 2022) without overfitting, and the plot of actual vs predicted values shows a very close alignment.
 
 ## Contact
 For any inquiries, reach out via GitHub or email.
