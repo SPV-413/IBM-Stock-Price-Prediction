@@ -28,10 +28,9 @@ This project focuses on time series forecasting for predicting IBM stock prices 
 
 ### 2. **Machine Learning Models**
 The project implements multiple machine learning models & one deep learning model for regression:
-- **Linear Regression**
-- **Random Forest Regressor**
 - **XGBoost Regressor**
 - **SVR**
+- **KNeighborsRegressor**
 - **Multi-layer Perceptron (MLP) Regressor**
 
 ### 3. **Model Evaluation**
@@ -58,8 +57,8 @@ Ensure you have the following installed:
    jupyter notebook IBM Stock Price Prediction.ipynb
 
 ## Results
-- For this specific dataset and task, the **LINEAR REGRESSION** is the most effective model. Suggests it captures the underlying patterns in the data most accurately.
-- Linear regression model achieving a 99% R-squared score on IBM stock price prediction (up to December 2023) without overfitting, and the plot of actual vs predicted values shows a very close alignment.
+- For this specific dataset and task, the **XGBoost Regressor** is the most effective model. Suggests it captures the underlying patterns in the data most accurately.
+- XGBoost Regressor model achieving a 97% R-squared score on IBM stock price prediction (up to December 2023) without overfitting, and the plot of actual vs predicted values shows a very close alignment.
 
 ## Contact
 For any inquiries, reach out via GitHub or email.
